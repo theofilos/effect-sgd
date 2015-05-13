@@ -7,6 +7,7 @@ logistic_regression.py finds optimal coefficients for a logistic regression by m
 X are the labels and x are the features. Xs are drawn from a Bernoulli distribution with parameter theta. 
 Each theta depends on cross sectional features x via a sigmoid link function. 
 The likelihood of the data is minimized via
+
 1. gradient descent 
 2. stochastic gradient descent (SGD)
 3. parallel SGD (as in "Parallelized Stochastic Gradient Descent" by Marty Zinkevich, Markus Weimer and Lihong Li)
